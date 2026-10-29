@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Simulador educativo de escritorio para Digitalización de 4.º ESO"
+    />
+    <title>Aula PC · Digitalización</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="desktop">
+      <div class="wallpaper"></div>
+      <div id="desktop-icons"></div>
+      <div class="desktop-label">
+        AULA PC<span>Digitalización · 4.º ESO</span>
+      </div>
+      <div id="windows"></div>
+      <aside id="tasks" hidden aria-label="Tareas de la práctica"></aside>
+      <nav id="start" hidden></nav>
+      <footer id="taskbar"></footer>
+    </main>
+    <section id="login">
+      <form id="login-form">
+        <div class="brand-icon">▦</div>
+        <h1>Tu ordenador de práctica</h1>
+        <p>
+          Explora, prueba y aprende. Todo lo que haces aquí es una simulación.
+        </p>
+        <label for="email">Correo electrónico</label
+        ><input
+          id="email"
+          type="email"
+          required
+          autocomplete="email"
+          placeholder="nombre@centro.es"
+        /><button class="primary">Entrar al escritorio</button
+        ><small
+          >Sin contraseña. El progreso se guarda en este navegador y equipo,
+          asociado a tu correo. No se envía a ningún servidor.</small
+        >
+        <p id="login-error" role="alert"></p>
+      </form>
+    </section>
+    <dialog id="dialog"></dialog>
+    <div id="toast" role="status"></div>
+    <script src="js/config.js"></script>
+    <script src="js/extension-config.js"></script>
+    <script src="js/task-flow.js"></script>
+    <script src="js/core.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/web-content.js"></script>
+    <script src="js/browser.js"></script>
+    <script src="js/installer.js"></script>
+    <script src="js/fraud.js"></script>
+    <script src="js/math-engine.js"></script>
+    <script src="js/game-engine.js"></script>
+    <script src="js/survivor-render.js"></script>
+    <script src="js/game-ui.js"></script>
+    <script src="js/advanced-programs.js"></script>
+    <script src="js/programs.js"></script>
+    <script src="js/settings.js"></script>
+  <script src="vendor/pdf-lib.min.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/report-fonts.js"></script>
+    <script src="js/report.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/tasks.js"></script>
+  </body>
+</html>
